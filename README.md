@@ -30,3 +30,35 @@ npm run dev
 
 When prompted for your website domain, type in 'http://localhost:3000'
 
+### Usage
+
+Ask for your list of todos:
+
+```sh
+what are my todos?
+# or anything like that
+```
+
+Add a todo:
+
+```sh
+add book flight to my todos
+```
+
+Summarize todos:
+
+```
+How many todos do I have left?
+```
+
+Or any other questions you might have.
+
+### Configuration
+
+To add more routes:
+
+1. Create new route in `pages/api` directory.
+
+2. Update `openapi.yaml` with new path
+
+3. Update `openapi.yaml` with schema for any data model coming back or being passed in.
