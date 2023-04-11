@@ -4,6 +4,10 @@ This is essentially the JavaScript version of the Python app documented in the O
 
 I originally had trouble getting the headers and cors working properly so I figured I'd document how to do this here.
 
+### Prerequisites
+
+This app has no user interface, instead it's meant to use with GhatGPT's UI so therefore you must have access to ChatGPT plugins, which at the moment are still in beta.
+
 ### Project setup
 
 1. Clone the repo, install depdendencies:
