@@ -3,7 +3,7 @@
   "name_for_human": "TODO Plugin (no auth)",
   "name_for_model": "todo",
   "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
-  "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+  "description_for_model": "Plugin for managing a TODO list. Users can add, remove, and list todos.",
   "auth": {
     "type": "none"
   },
@@ -12,7 +12,7 @@
     "url": "http://localhost:3000/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "http://localhost:3000/thirteen.svg",
+  "logo_url": "http://localhost:3000/logo.png",
   "contact_email": "support@example.com",
   "legal_info_url": "https://example.com/legal"
 }

@@ -30,8 +30,30 @@ paths:
       responses:
         "200":
           description: OK
+  /api/delete-todo:
+    post:
+      operationId: deleteTodo
+      summary: delete a todo
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/deleteTodoRequest'
+      responses:
+        "200":
+          description: OK
 components:
   schemas:
+    deleteTodoRequest:
+      type: object
+      required:
+      - todo
+      properties:
+        todo:
+          type: string
+          description: The todo to delete from the list.
+          required: true
     addTodoRequest:
       type: object
       required:
