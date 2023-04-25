@@ -23,7 +23,11 @@ yarn # or npm install, pnpm
 2. Run the server
 
 ```sh
-npm run dev
+npm run build
+
+npm start
+
+# If you run this in dev mode, the memory may not persist well as the server will randomly restart sometimes
 ```
 
 3. Set up your GPT Plugin in the ChatGPT Plugin UI.
